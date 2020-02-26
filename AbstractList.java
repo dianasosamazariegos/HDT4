@@ -31,10 +31,15 @@ public abstract class AbstractList<E>  implements Lista<E>{
    
    
    public E remove(int index){
-       return E;
+       return null;
    }
    
    public E get(int index){
-       return E;
+       
+       return null;
+   }
+   
+   public int indexOf(E value){
+       return 0;
    }
 }

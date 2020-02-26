@@ -15,5 +15,6 @@ public interface Lista<E> {
             public void add(E item);
             public E remove(int index);
             public E get(int index);
+            public int indexOf(E value);
             
 }

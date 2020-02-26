@@ -37,7 +37,7 @@ public class doublyLinkedList<E> extends AbstractList<E>{
 
     public E removeLast(){
         doublyLinkedNode<E> temp = tail;
-        tail = tail.anterior();
+        tail = tail.prev();
         if (tail == null) {
             head = null;
         } else {
